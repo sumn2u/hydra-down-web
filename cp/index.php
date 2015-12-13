@@ -63,6 +63,10 @@ else {
 							include('includes/edit_ads.php');
 							break;
 
+							case "delete_include_exclude":
+							include ('includes/delete_include_exclude.php');
+							break;
+
 							case "delete_ads":
 							include('includes/del_ads.php');
 							break;
@@ -125,6 +129,10 @@ else {
 
 							case "manage_trip":
 							include('includes/trip_planner.php');
+							break;
+
+							case "include_exclude":
+							include('includes/include_exclude.php');
 							break;
 
 							case "delete_trip_msg":

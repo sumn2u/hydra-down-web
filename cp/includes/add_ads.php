@@ -47,6 +47,7 @@ if(isset($_POST['add_ads'])){
 						</div>
 						<div class="col-400">
 							<select name="category">
+								
                             <?php
 								$query1 = mysql_query("select * from tbl_package");
 								while($query2 = mysql_fetch_array($query1)){ ?>
